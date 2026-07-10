@@ -16,8 +16,7 @@ async function requestWindow(stream) {
       height: 600,
     });
     const img = document.createElement("img");
-    img.src =
-      "https://github.com/user-attachments/assets/2ffd9b63-96cc-449b-a1d2-afbdaed8a743";
+    img.src = "ada_alon.jpg";
     img.style.height = "100%";
     pip.document.body.appendChild(img);
 
