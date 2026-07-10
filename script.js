@@ -17,7 +17,7 @@ async function requestWindow(stream) {
     });
     const img = document.createElement("img");
     img.src =
-      "https://cdn.glitch.global/19db581c-da41-4b7c-8ab0-5c2d3f96dddd/ada_car_2.jpg";
+      "https://github.com/user-attachments/assets/2ffd9b63-96cc-449b-a1d2-afbdaed8a743";
     img.style.height = "100%";
     pip.document.body.appendChild(img);
 
