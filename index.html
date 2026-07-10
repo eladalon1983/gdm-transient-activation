@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <h1>getDisplayMedia and Transient Activation</h1>
+    <p>
+      Recall that if you interact with the gDM-prompt quickly enough, you will
+      still have transient activation from the original click on the button
+      here.
+      <br />
+      So you likely want to wait a bit between clicking the button and making a
+      choice.
+      <br /><br />
+      Remember to enable chrome://flags/#get-display-media-confers-activation
+      first.
+    </p>
+    <p id="transientActivationStatusP">
+      Transient activation:
+      <span style="color: red"><strong>false</strong></span>
+    </p>
+    <button onclick="onStartClicked();">Start</button>
+    <p id="errorP" style="color: red"></p>
+  </body>
+</html>
